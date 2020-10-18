@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TaskListComponent } from './pages/task-list/task-list.component';
+//import { TaskListComponent } from './pages/task-list/task-list.component';
 import { TaskViewComponent } from './pages/task-view/task-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskListComponent,
+    //TaskListComponent,
     TaskViewComponent
   ],
   imports: [
