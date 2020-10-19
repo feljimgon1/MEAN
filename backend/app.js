@@ -4,8 +4,8 @@ const app = express();
 const mongoose = require('./database/mongoose');
 app.use(express.json());
 
-const List = require('./database/models/lists')
-const Task = require('./database/models/task')
+const List = require('./database/models/lists');
+const Task = require('./database/models/task');
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
