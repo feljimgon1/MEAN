@@ -15,7 +15,8 @@ $input-border-color: transparent;
 $input-shadow: none;
 
 html, body{
-    background: linear-gradient(to right top, $turquoise, $blue);
+    background: linear-gradient(to right top, grey, black);
+    overflow: hidden;
 }
 
 html, body{
